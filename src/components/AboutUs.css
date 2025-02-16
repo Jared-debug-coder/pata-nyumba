@@ -1,0 +1,49 @@
+.about-container {
+    width: 100%;
+    height: 100vh;
+    background: url("/public/background.jpg") no-repeat center center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    backdrop-filter: blur(5px);
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .about-description {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin-bottom: 2rem;
+  }
+  
+  .about-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .about-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+  }
+  
+  .about-icon {
+    font-size: 2rem;
+    color: #fbbf24;
+    margin-bottom: 1rem;
+  }
+  
+  

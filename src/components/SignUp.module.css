@@ -1,0 +1,79 @@
+.signupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+  }
+  
+  .signupCard {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .signupCard h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #4facfe;
+  }
+  
+  .signupButton {
+    background: #ff9800;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .signupButton:hover {
+    background: #e68900;
+  }
+  
+  .errorMessage, .successMessage {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .errorMessage {
+    color: red;
+  }
+  
+  .successMessage {
+    color: green;
+  }
+  
+  .loginPrompt {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .loginPrompt a {
+    color: #4facfe;
+    text-decoration: none;
+  }
+  
+  .loginPrompt a:hover {
+    text-decoration: underline;
+  }
+  

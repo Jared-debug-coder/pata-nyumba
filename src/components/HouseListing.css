@@ -1,0 +1,172 @@
+.listing-container {
+    padding: 2rem;
+    background: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 2rem;
+    justify-content: center;
+    align-items: start;
+  }
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/public/background.jpg') no-repeat center center/cover;
+    opacity: 0.3;
+    z-index: -1;
+    
+  }
+  
+  .house-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .house-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .house-details {
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .house-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .house-text {
+    font-size: 1rem;
+    color: #4b5563;
+    margin: 0.2rem 0;
+  }
+  .see-more-button:hover, .see-less-button:hover {
+    background: #1e40af;
+    font-size: 15px;
+    container: circle;
+  }
+  .book-now-button {
+    background-color: #f59e0b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  .book-now-button:hover {
+    background-color: #d97706;
+  }
+  
+  .booking-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .booking-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .booking-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .booking-form input {
+    width: 300%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .booking-form button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1px;
+  }
+  
+  .booking-form .cancel-button {
+    background-color: #ef4444;
+  }
+  
+  .booking-form .cancel-button:hover {
+    background-color: #dc2626;
+  }
+  .location-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #d32f2f;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .location-icon:hover {
+    text-decoration: underline;
+    color: #b71c1c;
+  }
+  /* ✅ Ensure "See More" & "See Less" buttons are visible */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.see-more-button,
+.see-less-button {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.see-more-button:hover,
+.see-less-button:hover {
+  background-color: #162c6a;
+}
+
+  
+  
+  
+  
+  
